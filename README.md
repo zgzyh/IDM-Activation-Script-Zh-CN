@@ -1,5 +1,5 @@
 # 注意
-需要注意⚠️此仓库版本为汉化版本，此MD是由原作者复制来的，本人仅处理cmd文件的汉化内容，原仓库[IDM Activation Script](https://github.com/lstprjct/IDM-Activation-Script)
+需要注意⚠️此仓库版本为汉化版本，此MD是由原作者复制来的，本人仅处理cmd文件的汉化内容，原仓库[GitHub-IDM Activation Script](https://github.com/lstprjct/IDM-Activation-Script)
 # IDM Activation Script
 An open-source tool to activate and reset the trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
