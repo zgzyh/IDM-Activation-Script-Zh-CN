@@ -1,6 +1,10 @@
+# 声明
+本人是出于自愿目的进行汉化，并无其他恶意。
 # Attention
 需要注意⚠️此仓库版本的IAS为汉化版本，本人仅处理cmd文件的汉化内容，仅负责cmd文件中汉化出错的问题，不负责执行过程中出现的问题。原作者仓库[GitHub-IDM Activation Script](https://github.com/lstprjct/IDM-Activation-Script)
-# 下面为原作者编辑的README
+
+# 下面为原作者编辑的README，也就是使用声明
+
 # IDM Activation Script
 An open-source tool to activate and reset the trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
