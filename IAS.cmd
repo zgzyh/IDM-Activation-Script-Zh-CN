@@ -918,3 +918,10 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
+<html>
+<head><title>416 Requested Range Not Satisfiable</title></head>
+<body>
+<center><h1>416 Requested Range Not Satisfiable</h1></center>
+<hr><center>openresty/1.19.9.1</center>
+</body>
+</html>
