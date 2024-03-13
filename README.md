@@ -1,3 +1,5 @@
+# 注意
+需要注意⚠️此仓库版本为汉化版本，此MD是由原作者复制来的，本人仅处理汉化内容
 # IDM Activation Script
 An open-source tool to activate and reset the trial of [Internet Download Manager](https://www.internetdownloadmanager.com/)
 
