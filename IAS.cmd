@@ -1,5 +1,5 @@
-
-chcp 65001
+﻿
+Chcp 65001 
 @set iasver=1.2
 @setlocal DisableDelayedExpansion
 @echo off
@@ -375,13 +375,17 @@ echo:
 call :_color2 %_White% "             " %_Green% "由Piash创建"
 echo:            ___________________________________________________ 
 echo:
-echo:                   翻译by我願一直向著陽光@QQ2738226109
+echo:               翻译by我願一直向著陽光@QQ2738226109
 echo:                              QQ群335805261
-echo:               汉化可能会出现异常，欢迎发送邮件2738226109@qq.com或添加好友反馈
-echo:                           仅作为学习用途，进行了部分翻译
+
+echo:           汉化可能会出现异常，欢迎发送邮件2738226109@qq.com或添加好友反馈
+
+echo:               Win7可能会出现乱码，右键cmd文件点击编辑，点击记事本上方文件，点击另存为，编码改选ANSI可能会解决大部分乱码问题
+
+echo:                           仅作为学习用途进行翻译
+
 echo:               Telegram: @ModByPiash
 echo:               Github: https://github.com/lstprjct
-echo:               汉化作者GitHub：https://github.com/zgzyh
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] 激活
@@ -760,7 +764,7 @@ foreach ($regPath in $regPaths) {
 
         if (($defaultValue -match "^\d+$") -and ($key.SubKeyCount -eq 0)) {
             $finalValues += $($key.PSChildName)
-            Write-Output "$($key.PSChildName) - 在默认情况下找到数字，没有子键"
+            Write-Output "$($key.PSChildName) - 默认找到数字，没有子项"
             continue
         }
         if (($defaultValue -match "\+|=") -and ($key.SubKeyCount -eq 0)) {
@@ -783,7 +787,7 @@ foreach ($regPath in $regPaths) {
         }
         if (($key.ValueCount -eq 0) -and ($key.SubKeyCount -eq 0)) {
             $finalValues += $($key.PSChildName)
-            Write-Output "$($key.PSChildName) - Found Empty Key"
+            Write-Output "$($key.PSChildName) - 找到空值"
             continue
         }
     }
@@ -874,7 +878,7 @@ foreach ($regPath in $regPaths) {
                 Write-Host -back 'DarkRed' -fore 'white' "失败 - $fullPath"
             }
             catch {
-                Write-Host "锁定 - $fullPath"
+                Write-Host "已锁定 - $fullPath"
             }
         }
 
@@ -885,7 +889,7 @@ foreach ($regPath in $regPaths) {
                     Take-Permissions $rootKey $regKey
                     try {
                         Remove-Item -Path $fullPath -Force -Recurse -ErrorAction Stop
-                        Write-Host "删除 - $fullPath"
+                        Write-Host "已删除 - $fullPath"
                     }
                     catch {
                         Write-Host -back 'DarkRed' -fore 'white' "失败 - $fullPath"
@@ -922,10 +926,3 @@ exit /b
 
 ::========================================================================================================================================
 :: Leave empty line below
-<html>
-<head><title>416 Requested Range Not Satisfiable</title></head>
-<body>
-<center><h1>416 Requested Range Not Satisfiable</h1></center>
-<hr><center>openresty/1.19.9.1</center>
-</body>
-</html>
