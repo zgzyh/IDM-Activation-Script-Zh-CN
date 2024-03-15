@@ -382,7 +382,7 @@ echo:           汉化可能会出现异常，欢迎发送邮件2738226109@qq.co
 
 echo:               Win7可能会出现乱码，右键cmd文件点击编辑，点击记事本上方文件，点击另存为，编码改选ANSI可能会解决大部分乱码问题
 
-echo:                           仅作为学习用途进行翻译
+echo:                           仅作为学习用途进行翻译，无其他恶意
 
 echo:               Telegram: @ModByPiash
 echo:               Github: https://github.com/lstprjct
