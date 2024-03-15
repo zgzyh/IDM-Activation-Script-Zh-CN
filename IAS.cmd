@@ -1,3 +1,4 @@
+
 chcp 65001
 @set iasver=1.2
 @setlocal DisableDelayedExpansion
@@ -71,7 +72,7 @@ set "mas=https://github.com/lstprjct/IDM-Activation-Script/wiki/"
 sc query Null | find /i "RUNNING"
 if %errorlevel% NEQ 0 (
 echo:
-echo 空服务未运行，脚本可能会崩溃...
+echo Null服务未运行，脚本可能会崩溃...
 echo:
 echo:
 echo 帮助 - %mas%IAS-Help#troubleshoot
@@ -371,19 +372,22 @@ if not defined terminal mode 75, 28
 
 echo:
 echo:
-call :_color2 %_White% "             " %_Green% "Create By Piash"
+call :_color2 %_White% "             " %_Green% "由Piash创建"
 echo:            ___________________________________________________ 
 echo:
-echo:               翻译by我願一直向著陽光@QQ2738226109
+echo:                   翻译by我願一直向著陽光@QQ2738226109
 echo:                              QQ群335805261
-echo:                部分行列不支持中文ANSI字符，导致无法翻译，请见谅
+echo:               汉化可能会出现异常，欢迎发送邮件2738226109@qq.com或添加好友反馈
 echo:                           仅作为学习用途，进行了部分翻译
 echo:               Telegram: @ModByPiash
 echo:               Github: https://github.com/lstprjct
+echo:               汉化作者GitHub：https://github.com/zgzyh
 echo:            ___________________________________________________ 
 echo:                                                               
 echo:               [1] 激活
+
 echo:               [2] 冻结试用
+
 echo:               [3] 重置激活/试用状态
 echo:               _____________________________________________   
 echo:                                                               
@@ -756,7 +760,7 @@ foreach ($regPath in $regPaths) {
 
         if (($defaultValue -match "^\d+$") -and ($key.SubKeyCount -eq 0)) {
             $finalValues += $($key.PSChildName)
-            Write-Output "$($key.PSChildName) - Found Digit In Default and No Subkeys"
+            Write-Output "$($key.PSChildName) - 在默认情况下找到数字，没有子键"
             continue
         }
         if (($defaultValue -match "\+|=") -and ($key.SubKeyCount -eq 0)) {
