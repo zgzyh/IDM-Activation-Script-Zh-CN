@@ -1,6 +1,6 @@
 # 声明
 本人是出于自愿目的进行汉化，并无其他恶意。本工具仅用于免费用途！如有侵权请联系删除。
-# Attention
+# Warning
 需要注意⚠️此仓库版本的IAS为汉化版本，本人仅处理cmd文件的汉化内容，仅负责cmd文件中汉化出错的问题，不负责执行过程中出现的问题。原作者仓库[GitHub-IDM Activation Script](https://github.com/lstprjct/IDM-Activation-Script)
 
 # 下面为原作者编辑的README
